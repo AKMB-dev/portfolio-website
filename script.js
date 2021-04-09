@@ -38,3 +38,8 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+
+function scrollToTheForm(){
+	var elmnt = document.getElementById("submit-btn");
+    elmnt.scrollIntoView();
+}
