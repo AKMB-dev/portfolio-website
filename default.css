@@ -1,7 +1,7 @@
 :root{
 	--mainColor:#eaeaea;
-	--secondaryColor:#fff;
-	--navColor:#999999;
+	--secondaryColor:#eee;
+	--navColor:#888888;
 
 	--borderColor:#c1c1c1;
 
@@ -223,7 +223,7 @@ h6 { font-size: 16px;}
 
 
 #light-mode{
-	background-color: #fff;
+	background-color: #ddd;
 }
 
 #blue-mode{
