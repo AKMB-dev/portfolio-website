@@ -1,25 +1,27 @@
-
-
 :root{
-	--mainColor:#15202B;
-	--secondaryColor:#192734;
-	--navColor:#081115;
+	--mainColor:#ccc;
+	--secondaryColor:#eee;
+	--navColor:#888888;
 
-	--borderColor:#164D56;
+	--borderColor:#c1c1c1;
 
-	--mainText:#fff;
-	--secondaryText:#eeeeee;
+	--mainText:black;
+	--secondaryText:#4b5156;
 
-	--themeDotBorder:#FFF;
+	--themeDotBorder:#24292e;
 
-	--previewBg:rgb(25, 39, 52, 0.8);
-	--previewShadow:#111921;
+	--previewBg:rgb(251, 249, 243, 0.8);
+	--previewShadow:#f0ead6;
 
 
-	--buttonColor:#155889;
+	--buttonColor:black;
 
 
 }
+
+
+
+
 
 
 html, body{
@@ -46,7 +48,13 @@ p, li, span, label, input, textarea{
 
 a{
 	text-decoration: none;
-	color:#172899;
+	color:#6666ff;
+}
+
+p a{
+	background-color: #eee;
+	border-radius: 3px 3px 3px 3px;
+
 }
 
 ul{
@@ -224,6 +232,12 @@ h6 { font-size: 16px;}
 	border-width: 5px;
 }
 
+.copyright{
+	justify-content: center;
+	margin: 10px;
+	padding: 5px;
+	border-radius:5px 5px 5px 5px;
+}
 
 #light-mode{
 	background-color: #ddd;
